@@ -1,0 +1,107 @@
+.enlaces{
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(163, 162, 162);
+}
+img{
+    width: 60%;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    background-color: pink;
+}
+
+.lista{
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+}
+.padre{
+    display:flex;
+}
+
+
+@media(max-width:800px){
+    .fila1{
+        display:flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        flex-direction: column;
+    }
+    .fila2{
+        display:flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+    .fila3{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .padre{
+        flex-direction: column;
+    }
+}
+@media(min-width:800px){
+    .cuerpo{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .contenido{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .enlaces{
+        display:flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .padre{
+        display: flex;
+        justify-content:space-around;
+    }
+    .izq{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .der{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .centro{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+}
+
+/*.izq{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.der{
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+}
+.centro{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+*/
